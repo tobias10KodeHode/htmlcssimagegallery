@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: deepskyblue;
+}
+
+h1, p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.imagegallery {
+    overflow: hidden;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+
+}
